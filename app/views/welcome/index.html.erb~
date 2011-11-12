@@ -1,0 +1,16 @@
+<head>
+<style>
+.welcome
+   {
+    float:right;
+    margin:33px 40px 25px 20px;
+    }
+</style>
+</head>
+
+<div class="welcome">
+
+ Welcome <h1> <%= User.last.email %> </h1> Will get back to you soon. keep checking
+
+
+
