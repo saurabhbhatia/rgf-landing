@@ -4,7 +4,7 @@
 body {	
 	background-color:#ffffff;
 	background-image:none;
-	color:#8B8B8B;
+	color:#000;
 	font: Georgia, "Times New Roman", Times, serif;
 	margin:0px;
 	padding:0px;
@@ -25,17 +25,19 @@ font-style: normal;
 }
 
 h1 { 
-	font-size:40px;
+	font-size:60px;
 	line-height:40px;
 	font-family:Gabriola, Georgia, "Times New Roman", Times, serif;
 	font-weight:normal;
-	color:#208488;
+	color:white;
 	margin:0px 0px 20px 0px;
 	padding:0px;
+    text-shadow: -3px 0 #006F3A, 0 3px #006F3A, 3px 0 #006F3A, 0 -3px #006F3A;
+
 	}
 	
 h2, h3, h4, h5, h6 {
-	font-size:20px;
+	font-size:30px;
 	font-family:Arial, Helvetica, sans-serif;
 	font-weight:bold;
 	color:#3C8D9A;

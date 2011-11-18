@@ -15,7 +15,7 @@ development:
   database: rgf_new_development
   pool: 5
   username: root
-  password: safew
+  password: saurabh
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -28,7 +28,7 @@ test:
   database: rgf_new_development
   pool: 5
   username: root
-  password: safew
+  password: saurabh
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -38,5 +38,5 @@ production:
   database: rgf_new_development
   pool: 5
   username: root
-  password: safew
+  password: saurabh
   socket: /var/run/mysqld/mysqld.sock

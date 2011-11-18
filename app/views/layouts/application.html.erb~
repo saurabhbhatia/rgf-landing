@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RealgoodfoodLandingApp</title>
+  <title>Welcome To Realgoodfood Beta - Local, Awesome Food</title>
   <%= stylesheet_link_tag    "application","real-good-food.css" %>
-  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "application", "jquery-1.6.4.min.js","jquery.backstretch.min.js" %>
+  <link href='http://fonts.googleapis.com/css?family=Convergence' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Devonshire' rel='stylesheet' type='text/css'>
   <%= csrf_meta_tags %>
 </head>
 <body>

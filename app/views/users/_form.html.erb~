@@ -6,7 +6,8 @@
 	}
 
 	body {
-		background: #fff;
+		background: transparent;
+		color: #000;
 	}
 
 	form {
@@ -116,11 +117,12 @@
 		}
 
 		blockquote#one {
+                        border:5px solid #00868B;
 			width: 280px;
-			background: #848484;
+			background: #FFF8C6;;
 			padding: 25px;
 			position: relative;
-                        color: #fff;
+                        color: #000;
                         border-radius:8px 8px 8px 8px;
 		}
 
@@ -130,7 +132,7 @@
 
                #third {
                        background:#848484;
-                       margin-left:380px;
+                       margin-left:360px;
                        margin-right:180px;
                        padding-top:10px;
                        padding-bottom:1px;
@@ -149,27 +151,26 @@
 <body>
 
 <h1 align ="center">
-    <%= image_tag "logo.jpg" %><br />
-    <b style ="font-family:ubuntu">Welcome to Real Good Food</b></h1>
+    <br /><%= image_tag "RealGoodFood-Logo.jpg" %><br /><br />
+    <b style ="font-family: 'Cookie', cursive;">Welcome to Real Good Food</b></h1>
 
-<h3 style = "text-align:center;font-family:ubuntu"> Your delicious and delightful local food community </h3>
-<div style ="border:5px solid #00868B;margin-left:40px;margin-right:40px">
+<h3 style = "text-align:center;font-family: 'Cookie', cursive;font-size:40px;color:white;text-shadow: -3px 0 #006F3A, 0 3px #006F3A, 3px 0 #006F3A, 0 -3px #006F3A;"> Your delicious and delightful local food community </h3>
+<div style ="border:5px solid #00868B;margin-left:200px;margin-right:200px;background-color: #FFF8C6;font-size:20px;border-radius:8px 8px 8px 8px;">
 <p style= "text-align:center;font-family:ubuntu">
-<b>Real Good Food is an online platform for people who love food - cooking, growing or simply consuming food that’s prepared with love and skill. <br /><br /></b></p>
- 
-<p style= "text-align:center;font-family:ubuntu">
+<b>Real Good Food is an online platform for people who love food - cooking, growing or simply consuming food that’s prepared with love and skill. <br /></b></p>
+<p style= "text-align:center;font-family: 'Convergence', sans-serif;">
 Coordinate food trades and collaborative cooking and dining events
  with your friends, neighbors and co-workers.
 </p>
 
-<p style= "text-align:center;font-family:ubuntu">
+<p style= "text-align:center;font-family: 'Convergence', sans-serif;">
 Discover the best brownies, jambalaya or green curry paste around and showcase your own new favorite or family secret.</p>
 
-<p style= "text-align:center;font-family:ubuntu">
+<p style= "text-align:center;font-family: 'Convergence', sans-serif;">
 Save money and time by cooking more, less often, eating great the whole time
 </p>
 </div><br />
-<h2 style ="text-align:center;font-family:ubuntu">
+<h2 style = "text-align:center;font-family: 'Cookie', cursive;font-size:40px;color:white;text-shadow: -3px 0 #006F3A, 0 3px #006F3A, 3px 0 #006F3A, 0 -3px #006F3A;">
     We need your help to make Real Good Food a reality in your community</h2>
 <br />
 
@@ -178,13 +179,15 @@ Save money and time by cooking more, less often, eating great the whole time
   <tr><td>
   <td>
     <blockquote id="one">
-       Be Social Tell A friend, Like us on Facebook, if you tweet… #realgoodfood and join our newsletter below, Have other ideas for Real Good Food? 
+       Have other ideas for Real Good Food ? Give us a Shout through Social Networks
+       <%= image_tag 'twitter.png' %> Use #realgoodfood <br/>
+       <a href="http://facebook.com/RealGoodFood" target="blank"><%= image_tag "facebook.png" %></a> Track Us on Facebook
    </blockquote>
    </td>
    <td>
    <blockquote id="one">
-      Check out our website under development and give us your advice and feedback. This is your site!
-      Have other ideas for Real Good Food? Let us know
+      Check out our website under development and give us your advice and feedback.
+      We love to listen to the voice of our community, share your thoughts <a href="http://realgoodfood.uservoice.com/forums/137635-feedback-forum-for-real-good-food" target="blank">here</a>
    </blockquote>
    </td>
   </tr>
@@ -192,7 +195,7 @@ Save money and time by cooking more, less often, eating great the whole time
 </div>
 
 
-<div id ="third"> 
+<div id ="third", style ="border:5px solid #00868B;background-color: #FFF8C6;border-radius:8px 8px 8px 8px;color:black;"> 
           Share $5 dollars and Help us raise $10,000 to complete a working beta website
           (also read more about Real Good Food)			
 <h1 align ="center">
@@ -205,7 +208,7 @@ Save money and time by cooking more, less often, eating great the whole time
 <!-- Begin MailChimp Signup Form -->
 <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	#mc_embed_signup{background:transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -407,6 +410,10 @@ function mce_success_cb(resp){
 
 </script>
 <!--End mc_embed_signup-->
+
+	<script>
+        $.backstretch("../assets/rgf2.png");
+    </script>
 
 </body>
 </html>
