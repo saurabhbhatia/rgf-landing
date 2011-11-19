@@ -118,6 +118,7 @@
 
 		blockquote#one {
                         border:5px solid #00868B;
+			font-family: 'Convergence', sans-serif;"
 			width: 280px;
 			background: #FFF8C6;;
 			padding: 25px;
@@ -200,7 +201,7 @@ Save money and time by cooking more, less often, eating great the whole time
           (also read more about Real Good Food)			
 <h1 align ="center">
   <input type=button onClick="location.href='http://wjf.launcht.com/participant/detail/58'"
-                   value='Support Us' class= "btn blue" target="_blank" ></h1>
+                   value='Support Us' class= "btn blue" target="blank" ></h1>
 
 </div>
 
