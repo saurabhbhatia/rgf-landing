@@ -25,14 +25,11 @@ font-style: normal;
 }
 
 h1 { 
-	font-size:60px;
-	line-height:40px;
-	font-family:Gabriola, Georgia, "Times New Roman", Times, serif;
-	font-weight:normal;
+	font-size:50px;
 	color:white;
 	margin:0px 0px 20px 0px;
 	padding:0px;
-    text-shadow: -3px 0 #006F3A, 0 3px #006F3A, 3px 0 #006F3A, 0 -3px #006F3A;
+        text-shadow: -3px 0 #006F3A, 0 3px #006F3A, 3px 0 #006F3A, 0 -3px #006F3A
 
 	}
 	
