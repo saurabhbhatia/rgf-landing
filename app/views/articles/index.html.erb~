@@ -1,0 +1,42 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Real Good Food Blog</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+</head>
+<body>
+<div id="wrapper">
+
+	
+<div style="margin-left: 105px"><%= image_tag "logo.jpg"%></div>
+<!-- end #header-wrapper -->
+
+
+	<div id="container">
+		<div class="articles">
+<% @articles.each do |article| %>
+			<a href="articles/<%= article.slug %>"><h2 class="title"><%= article.title %></h2></a>
+			<p class="date"><%= article.created_at %></p>
+			<div class="entry">
+				<%=h truncate article.body, :length => 1000 %>
+			</div>
+    <td><%= link_to 'Read More', article %></td>
+		</div>
+<% end %>
+	<!-- end #content -->
+
+	
+	<!-- end #sidebar -->
+	<div style="clear: both;">&nbsp;</div>
+</div>
+	<div id="bottom-bg"><img src="images/img07.gif" alt="" /></div>
+<!-- end #page -->
+
+<div style="margin-left: 110px">
+	<p>Copyright (c) 2011 Real Good Food.</p>
+</div>
+<!-- end #footer -->
+
+</body>
+</html>
